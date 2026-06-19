@@ -1,0 +1,9 @@
+@charset
+    "UTF-8";
+
+.custom-navbar-logo {
+    width: auto;
+    height:  45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
