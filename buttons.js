@@ -3,7 +3,7 @@ myButton.innerText = 'Explore artists';
 myButton.className = 'artist-buttton'
 
 myButton.addEventListener('click', function() {
-    location.href = 'artist.html';
+    location.href = 'artist-profile.html';
 });
 
 const container = document.getElementById('button-container');
