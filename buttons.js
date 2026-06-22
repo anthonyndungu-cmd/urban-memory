@@ -1,5 +1,5 @@
 const myButton = document.createElement('button');
-myButton.innerText = 'Show more';
+myButton.innerText = 'Explore artists';
 myButton.className = 'artist-buttton'
 
 myButton.addEventListener('click', function() {
