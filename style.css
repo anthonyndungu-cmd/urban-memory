@@ -45,11 +45,6 @@
   border-radius: 5px;
   border: none;
 }
-.dbutton {
-  background-color: #5ab572;
-  display: flex;
-  justify-content: center;
-}
 
 .container-artist {
     gap: 20px;
@@ -74,8 +69,8 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    padding: 20px;
     flex-direction: column;
+
 }
 .profile-img {
   width: 100%;
