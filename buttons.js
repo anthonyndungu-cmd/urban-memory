@@ -6,5 +6,6 @@ myButton.addEventListener('click', function() {
     location.href = 'artist-profile.html';
 });
 
-const container = document.getElementById('button-container');
+const container = document.getElementById('artist-button');
 container.appendChild(myButton);
+
