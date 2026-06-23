@@ -58,7 +58,7 @@
     flex-wrap: wrap;
     padding: 40px 20px;
     h1, h2, h3 {
-        color: #f5f1f1;
+        color: #F1EFE8;
         font-size: 36px;
         margin-bottom: 20px;
     }
@@ -66,7 +66,7 @@
 .profile-card {
     background-color: #252525;
     border: 2px solid #de4c4c;
-    color: #ffffff;
+    color: #F1EFE8;
     border-radius: 8px;
     width: 350px;
     overflow: hidden;
