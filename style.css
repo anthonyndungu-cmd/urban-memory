@@ -6,17 +6,19 @@
     height:  100px;
     border-radius: 50%;
     margin-right: 10px;
+
 }
 
 .navbar {
-    background-color: #228038;
+    background-color: #252525;
     padding: 15px 20px;
+    border-bottom: 2px solid #444441;
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #E24B4A;    
     font-size: 24px;
     font-weight: bold;
 }
@@ -28,7 +30,7 @@
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  background-color: #78ef00;
+  background-color: #1A1A1A;
 }
 
 .container h1 {
@@ -39,29 +41,30 @@
 }
 
 .artist-buttton {
-  background-color: #007bff; /* Blue background */
+  background-color: #E24B4A; /* Blue background */
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
 }
 
-.container-artist {
-    gap: 20px;
-    margin-top: 20px;
-}
 
 .profiles-container {
-    background-color: #5ab572;
+    background-color: #1A1A1A;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
     padding: 40px 20px;
+    h1, h2, h3 {
+        color: #f5f1f1;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
 }
 .profile-card {
-    background-color: #000000;
+    background-color: #252525;
     border: 2px solid #de4c4c;
     color: #ffffff;
     border-radius: 8px;
@@ -74,12 +77,11 @@
 }
 .profile-img {
   width: 100%;
-  height: 250px;
+  height: 250px;    
   object-fit: cover;
 }
 .profile-info {
   padding: 20px;
-  color: #1a1a1a;
 }
 .profile-info h3 {
   margin-top: 0;
