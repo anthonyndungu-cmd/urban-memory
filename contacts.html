@@ -59,18 +59,28 @@
         <li>Rights holder inquiry — Artist, label, or management with a concern about content on this site? Reach out directly and we'll respond promptly.</li>
         <li>General feedback — Just want to say hi or tell us what you think? Go for it.</li>   
     </ul>
+</div>
+<div class="form-container">
     <h2>Contact form</h2>
-    <div class="row">
+    <form>
+  <div class="row mb-3">
   <div class="col">
     <input type="text" class="form-control" placeholder="First name" aria-label="First name">
   </div>
   <div class="col">
     <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+  </div>
+  </div>
+  
 
   <div class="row mb-3">
   <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
   <div class="col-sm-10">
-    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="example@gmail.com">
+  </div>
+</div>
+
+    <div class="row mb-3">
     <div class="form-floating">
   <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
     <option selected>Open this select menu</option>
@@ -79,14 +89,15 @@
     <option value="3">Three</option>
   </select>
   <label for="floatingSelect">Works with selects</label>
-  <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-  <label for="floatingTextarea2">Comments</label>
+    </div>
 </div>
-</div>
-  </div>
-  </div>
-</div>
+
+    <div class="row mb-3"></div>
+      <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Comments</label>
+    </div>
+  </form>
 </div>
 </body>
 </html>

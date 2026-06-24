@@ -23,6 +23,18 @@
     font-weight: bold;
 }
 
+.nav-link {
+    color: #E24B4A;
+
+}
+
+.nav link :hover {
+    color: #E24B4A;
+}
+
+.navbar-text {
+    color: #FAC775;
+}
 .container {
   max-width: 1200px; 
   margin-left: auto;
