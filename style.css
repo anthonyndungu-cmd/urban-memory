@@ -53,7 +53,7 @@
 }
 
 .artist-buttton {
-  background-color: #E24B4A; /* Blue background */
+  background-color: #E24B4A;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -115,3 +115,23 @@
     margin: 20px auto;
     float: left;
 }
+
+.big-container {
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+     p, li {
+        color: #F1EFE8;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    h2 {
+        color: #F1EFE8;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+}   
