@@ -183,3 +183,51 @@
         font-size: 20px;
     }
 }
+
+.news-container {
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    h1 {
+        color: #F1EFE8;
+        font-size: 36px;
+        justify-content: center;
+    }
+    h3 {
+        color: #F1EFE8;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    p, li {
+        color: #F1EFE8;
+        font-size: 20px;
+    }
+}
+
+.releases-container {
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    h1 {
+        color: #F1EFE8;
+        font-size: 36px;
+        justify-content: center;
+    }
+    h3 {
+        color: #F1EFE8;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    p, li {
+        color: #F1EFE8;
+        font-size: 20px;
+    }
+}
