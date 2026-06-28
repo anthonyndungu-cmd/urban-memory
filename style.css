@@ -60,6 +60,14 @@
   border: none;
 }
 
+.profile-button {
+  background-color: #E24B4A;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
 
 .profiles-container {
     background-color: #1A1A1A;
