@@ -1,7 +1,10 @@
 const artists = [
   { name: 'Rihanna', genre: 'R&B / Pop', img: 'Images/Rihanna.jpg' },
   { name: 'Kanye West', genre: 'Hip-Hop', img: 'Images/Kanye west.jpg' },
-  { name: 'Kendrick Lamar', genre: 'Hip-Hop', img: 'Images/Kendrick lamar.jpg' }
+  { name: 'Kendrick Lamar', genre: 'Hip-Hop', img: 'Images/Kendrick lamar.jpg' },
+  { name: 'J. Cole', genre: 'Hip-Hop', img: 'Images/J.cole.webp' },
+  { name: 'Drake', genre: 'Hip-Hop / R&B', img: 'Images/Drake.webp' },
+  { name: 'Megan Thee Stallion', genre: 'Hip-Hop', img: 'Images/megan thee stallion.webp' }
 ];
 
 let currentIndex = 0;
