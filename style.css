@@ -162,50 +162,58 @@
 
 .about-container1 {
     background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    color: #F1EFE8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 40px 20px;
-    h1 {
-        color: #F1EFE8;
-        font-size: 36px;
-        justify-content: center;
-    }
-    h3 {
-        color: #F1EFE8;
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    p, li {
-        color: #F1EFE8;
-        font-size: 20px;
-    }
 }
+.about-container1  h1 {
+  text-align: center;
+  color: #E24B4A;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.about-container1 p {
+  color: #F1EFE8;
+}
+
+.about-container1 hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
+}
+  
 
 .news-container {
     background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    color: #F1EFE8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 40px 20px;
-    h1 {
-        color: #F1EFE8;
-        font-size: 36px;
-        justify-content: center;
-    }
-    h3 {
-        color: #F1EFE8;
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    p, li {
-        color: #F1EFE8;
-        font-size: 20px;
-    }
+}
+.news-container  h1 {
+  text-align: center;
+  color: #E24B4A;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.news-container p {
+  color: #F1EFE8;
+}
+
+.news-container hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
 }
 
 .releases-container {
@@ -230,4 +238,39 @@
         color: #F1EFE8;
         font-size: 20px;
     }
+}
+
+.artist-profile-container {
+  background-color: #1A1A1A;
+  color: #F1EFE8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.artist-profile-container  h1 {
+  text-align: center;
+  color: #E24B4A;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.artist-profile-container h2 {
+  color: #FAC775;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.artist-profile-container p {
+  color: #F1EFE8;
+}
+
+.artist-profile-container hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
 }
