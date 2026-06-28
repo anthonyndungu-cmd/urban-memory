@@ -1,7 +1,5 @@
-const myButton = document.createElement('button');
-myButton.innerText = 'Explore artists';
-myButton.className = 'artist-buttton'
-
+const myButton = document.getElementById('artist-button');
+ 
 myButton.addEventListener('click', function() {
-    location.href = 'artist-profile.html';
+  location.href = 'artist.html';
 });
