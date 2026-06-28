@@ -227,10 +227,10 @@ body {
 }
 
 .form-container {
-    background-color: #b5c079;
+    background-color: #1c1b1b;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(43, 185, 11, 0.943);
+    box-shadow: 0 4px 8px rgba(188, 59, 59, 0.943);
     max-width: 500px;
     margin: 20px auto;
     float: left;
@@ -238,47 +238,68 @@ body {
 
 .big-container {
     background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    color: #F1EFE8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 40px 20px;
-     p, li {
-        color: #F1EFE8;
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-    h2 {
-        color: #F1EFE8;
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-}   
+}
+.big-container  h3 {
+  text-align: center;
+  color: #E24B4A;
+  font-size: 2.0rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.big-container p {
+  color: #F1EFE8;
+}
+
+.big-container h2 {
+    color: #FAC775
+}
+
+.big-container hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
+}  
 
 .event-container {
     background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    color: #F1EFE8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 40px 20px;
-    h1 {
-        color: #F1EFE8;
-        font-size: 36px;
-        justify-content: center;
-    }
-    h3 {
-        color: #F1EFE8;
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    p {
-        color: #F1EFE8;
-        font-size: 20px;
-    }
 }
+.event-container  h3 {
+  text-align: center;
+  color: #FAC775;
+  font-size: 2.0rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.event-container p {
+  color: #F1EFE8;
+}
+
+.event-container h1 {
+    color: #E24B4A
+}
+
+.event-container hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
+}
+
 
 .about-container1 {
     background-color: #1A1A1A;
@@ -289,7 +310,7 @@ body {
     margin: 0 auto;
     padding: 40px 20px;
 }
-.about-container1  h1 {
+.about-container1  h3 {
   text-align: center;
   color: #E24B4A;
   font-size: 2.5rem;
@@ -317,16 +338,20 @@ body {
     margin: 0 auto;
     padding: 40px 20px;
 }
-.news-container  h1 {
+.news-container  h3 {
   text-align: center;
   color: #E24B4A;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   margin-bottom: 0.25rem;
 }
 
 
 .news-container p {
   color: #F1EFE8;
+}
+
+.news-container h5 {
+    color: #FAC775
 }
 
 .news-container hr {
@@ -336,28 +361,38 @@ body {
   opacity: 1;
 }
 
+
+
 .releases-container {
     background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    color: #F1EFE8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 40px 20px;
-    h1 {
-        color: #F1EFE8;
-        font-size: 36px;
-        justify-content: center;
-    }
-    h3 {
-        color: #F1EFE8;
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    p, li {
-        color: #F1EFE8;
-        font-size: 20px;
-    }
+}
+.releases-container  h3 {
+  text-align: center;
+  color: #FAC775;
+  font-size: 2.0rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.releases-container p {
+  color: #F1EFE8;
+}
+
+.releases-container h1 {
+    color: #E24B4A
+}
+
+.releases-container hr {
+  border: none;
+  border-top: 2px solid #444441;
+  margin: 2.5rem 0;
+  opacity: 1;
 }
 
 .artist-profile-container {
