@@ -63,13 +63,13 @@
 </div>
 <div class="form-container">
     <h2>Contact form</h2>
-    <form>
+    <form id="contact-form">
   <div class="row mb-3">
   <div class="col">
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <input type="text" class="form-control" id="first-name" placeholder="First name" aria-label="First name">
   </div>
   <div class="col">
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <input type="text" class="form-control" id="last-name" placeholder="Last name" aria-label="Last name">
   </div>
   </div>
 
@@ -92,14 +92,16 @@
     </div>
 </div>
 
-    <div class="row mb-3"></div>
-      <div class="form-floating">
+      <div class="form-floating mb-3">
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Comments</label>
     </div>
-    <button type="button" class="btn btn-dark w-100 mt-2">Submit</button>
+
+    <p id="form-error" class="text-danger"></p>
+
+    <button type="button" id="submit-btn" class="btn btn-dark w-100 mt-2">Submit</button>
   </form>
 </div>
-</div>
+<script src="contact.js"></script>
 </body>
 </html>
