@@ -68,8 +68,120 @@
   border: none;
 }
 
+body {
+  background-color: #1A1A1A;
+  color: #F1EFE8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+}
 
 .profiles-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profiles-container .custom-navbar-logo {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.profiles-container h1 {
+  color: #E24B4A;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profiles-container h2 {
+  color: #FAC775;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.profiles-container h3 {
+  color: #B4B2A9;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.profiles-container #artistCarousel {
+  background-color: #252525;
+  border: 1px solid #444441;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.profiles-container .carousel-slide img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.profiles-container .carousel-slide h3 {
+  color: #F1EFE8;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.profiles-container .carousel-slide p {
+  color: #FAC775;
+  margin-bottom: 0;
+}
+
+.profiles-container #carousel-prev,
+.profiles-container #carousel-next {
+  background-color: #E24B4A;
+  color: #F1EFE8;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.profiles-container #carousel-prev {
+  left: 10px;
+}
+
+.profiles-container #carousel-next {
+  right: 10px;
+}
+
+.profiles-container #carousel-prev:hover,
+.profiles-container #carousel-next:hover {
+  background-color: #FAC775;
+  color: #1A1A1A;
+}
+
+.profiles-container .artist-button {
+  background-color: #E24B4A;
+  color: #F1EFE8;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.profiles-container .artist-button:hover {
+  background-color: #FAC775;
+  color: #1A1A1A;
+}
+
+.profiles1-container {
     background-color: #1A1A1A;
     display: flex;
     flex-direction: row;
